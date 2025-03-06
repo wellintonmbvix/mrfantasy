@@ -1,0 +1,11 @@
+.git/
+dcp/
+dcu/
+scripts/
+**/__history
+**/__recovery
+dados/
+imagens/
+**/Win32
+**/Win64
+modules/

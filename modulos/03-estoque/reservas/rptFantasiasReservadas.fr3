@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="6.4.17" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167929" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="44350,8409027778" ReportOptions.Description.Text="" ReportOptions.LastChange="44350,9438976389" ScriptLanguage="PascalScript" ScriptText.Text="&#13;&#10;begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxDBReservas" DataSetName="frxDBReservas"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0" HGuides.Text="" VGuides.Text="">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="26,45671" Left="0" Top="173,85838" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="frxDBReservas" DataSetName="frxDBReservas" RowCount="0">
+      <TfrxMemoView Name="Memo5" AllowVectorExport="True" Left="0" Top="0" Width="113,3859" Height="18,89765" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[frxDBReservas.&#34;dtemissao&#34;]"/>
+      <TfrxMemoView Name="Memo6" AllowVectorExport="True" Left="113,3859" Top="0" Width="113,3859" Height="18,89765" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[frxDBReservas.&#34;dtretirada&#34;]"/>
+      <TfrxMemoView Name="Memo7" AllowVectorExport="True" Left="226,7718" Top="0" Width="113,3859" Height="18,89765" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[frxDBReservas.&#34;dtdevolucao&#34;]"/>
+      <TfrxMemoView Name="Memo11" AllowVectorExport="True" Left="400,63018" Top="0" Width="317,48052" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="[frxDBReservas.&#34;cliente&#34;]"/>
+      <TfrxMemoView Name="Memo14" AllowVectorExport="True" Left="343,93723" Top="0" Width="52,91342" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[frxDBReservas.&#34;idtbreserva&#34;]"/>
+    </TfrxMasterData>
+    <TfrxGroupHeader Name="grpFantasias" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="41,57483" Left="0" Top="109,60637" Width="718,1107" Condition="frxDBReservas.&#34;idtbproduto&#34;" DrillDown="True" ExpandDrillDown="True" KeepChild="True">
+      <TfrxMemoView Name="Memo3" AllowVectorExport="True" Left="0" Top="0" Width="461,10266" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Fantasia: [frxDBReservas.&#34;produto&#34;]"/>
+      <TfrxMemoView Name="Memo4" AllowVectorExport="True" Left="461,10266" Top="0" Width="192,75603" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Tipo: [frxDBReservas.&#34;tipo&#34;]"/>
+      <TfrxMemoView Name="Memo8" AllowVectorExport="True" Left="0" Top="18,89765" Width="113,38582677" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Data de Emissão"/>
+      <TfrxMemoView Name="Memo9" AllowVectorExport="True" Left="113,3859" Top="18,89765" Width="113,38582677" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Data de Retirada"/>
+      <TfrxMemoView Name="Memo10" AllowVectorExport="True" Left="226,7718" Top="18,89765" Width="113,3859" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="Data de Devolução"/>
+      <TfrxLineView Name="Line2" AllowVectorExport="True" Left="0" Top="37,7953" Width="718,11023622" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo12" AllowVectorExport="True" Left="400,63018" Top="18,89765" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Cliente"/>
+      <TfrxLineView Name="Line1" AllowVectorExport="True" Left="0" Top="0" Width="718,11023622" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxMemoView Name="Memo13" AllowVectorExport="True" Left="343,93723" Top="18,89765" Width="52,91342" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="0" ParentFont="False" Text="Reserva"/>
+    </TfrxGroupHeader>
+    <TfrxColumnFooter Name="ColumnFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="22,67718" Left="0" Top="260,78757" Width="718,1107"/>
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="22,67718" Left="0" Top="306,14193" Width="718,1107">
+      <TfrxSysMemoView Name="SysMemo1" AllowVectorExport="True" Left="311,811225" Top="1,889765" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="0" HAlign="haCenter" ParentFont="False" Text="[PAGE#] de [TOTALPAGES#]"/>
+      <TfrxLineView Name="Line3" AllowVectorExport="True" Left="0,000231890000000012" Top="0" Width="718,11023622" Height="0" Color="0" Frame.Style="fsDash" Frame.Typ="4"/>
+    </TfrxPageFooter>
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="30,23622047" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo2" AllowVectorExport="True" Left="202,204855" Top="5,669285235" Width="313,70099" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="0" Frame.Typ="0" ParentFont="False" Text="RELATÓRIO - FANTASIAS &#38; RESERVAS"/>
+    </TfrxReportTitle>
+  </TfrxReportPage>
+</TfrxReport>

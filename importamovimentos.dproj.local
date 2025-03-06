@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/02 13:23:56.000.869,=C:\Users\Wellinton\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/30 20:18:04.000.642,=C:\Users\Wellinton\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/07/19 21:21:31.000.685,=C:\Users\Wellinton\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/27 20:28:24.000.941,=C:\Users\Wellinton\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/27 20:47:02.000.822,D:\Desenvolvimento\Delphi\Projetos\MrFantasy\uImportaMovimentos.pas=C:\Users\Wellinton\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/08/27 20:47:02.000.822,D:\Desenvolvimento\Delphi\Projetos\MrFantasy\uImportaMovimentos.dfm=C:\Users\Wellinton\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/08/27 20:47:12.000.675,D:\Desenvolvimento\Delphi\Projetos\MrFantasy\importamovimentos.dproj=C:\Users\Wellinton\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/08/27 21:18:41.000.576,=D:\Desenvolvimento\Delphi\Projetos\MrFantasy\rotinas\uControle.pas</Transaction>
+    <Transaction>2022/08/27 21:19:03.000.291,=D:\Desenvolvimento\Delphi\Projetos\MrFantasy\rotinas\uConexaoBD.pas</Transaction>
+    <Transaction>2022/08/27 21:19:16.000.997,=D:\Desenvolvimento\Delphi\Projetos\MrFantasy\rotinas\uRotinas.pas</Transaction>
+    <Transaction>2022/08/27 21:20:40.000.633,=D:\Desenvolvimento\Delphi\Projetos\MrFantasy\rotinas\uGlobal.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
