@@ -96,12 +96,12 @@ type
 
     [Column('condicao', ftString, 14)]
     [Dictionary('condicao', 'Mensagem de validação', '', '', '', taLeftJustify)]
-    [Enumeration(TEnumType.etString,'Dinheiro,Cartão Crédito,Cartão Débito,Cheque Á Vista,Cheque Á Prazo,Diversos')]
+    [Enumeration(TEnumType.etString,'DINHEIRO,CARTAOCREDITO,CARTAODEBITO,CHQAVISTA,CHQAPRAZO,DIVERSOS')]
     property condicao: TEnumTipoMoeda read Fcondicao write Fcondicao;
 
     [Column('tpmov', ftString, 10)]
     [Dictionary('tpmov', 'Mensagem de validação', '', '', '', taLeftJustify)]
-    [Enumeration(TEnumType.etString,'Fundo,Sangria,Suprimento,Sobra')]
+    [Enumeration(TEnumType.etString,'FUNDO,SANGRIA,SUPRIMENTO,SOBRA')]
     property tpmov: TEnumTipoMovimento read Ftpmov write Ftpmov;
 
     [Column('cancelado', ftBoolean)]

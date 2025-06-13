@@ -80,6 +80,7 @@ implementation
 uses
   uReportCaixa,
   view.financeiro.caixaPesquisa,
+  view.financeiro.relatorioCaixa,
   controller.dto.caixa.interfaces,
   controller.dto.caixa.interfaces.impl;
 
@@ -169,7 +170,7 @@ end;
 
 procedure TfrmCaixas.sbtnImprimirClick(Sender: TObject);
 begin
-  OpenFormModal(TfReportCaixa, fReportCaixa);
+  OpenFormModal(TfrmReportCaixa, frmReportCaixa);
 end;
 
 {$REGION 'Procedure de manipulação de "objetos"'}

@@ -79,8 +79,6 @@ type
     jvrbNao: TJvRadioButton;
     jvrbSim: TJvRadioButton;
     jvrbTodos: TJvRadioButton;
-    frxReport: TfrxReport;
-    frxDBMaster: TfrxDBDataset;
     fdMaster: TFDQuery;
     frxDBReservas: TfrxDBDataset;
     frxDBVendas: TfrxDBDataset;
@@ -91,7 +89,8 @@ type
     jvrbItensCancNao: TJvRadioButton;
     jvrbItensCancSim: TJvRadioButton;
     jvrbItensCancTodos: TJvRadioButton;
-    FDConnection: TFDConnection;
+    frxReport: TfrxReport;
+    frxDBMaster: TfrxDBDataset;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure jvceCaixaChange(Sender: TObject);
     procedure jvceCaixaButtonClick(Sender: TObject);

@@ -737,7 +737,7 @@ object fReportCaixa: TfReportCaixa
     end
   end
   object frxReport: TfrxReport
-    Version = '2022.2.7'
+    Version = '6.9.14'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick, pbCopy, pbSelection]
@@ -2419,7 +2419,6 @@ object fReportCaixa: TfReportCaixa
     CloseDataSource = False
     DataSet = fdMaster
     BCDToCurrency = False
-    DataSetOptions = []
     Left = 80
     Top = 40
   end
@@ -2434,7 +2433,6 @@ object fReportCaixa: TfReportCaixa
     CloseDataSource = False
     DataSet = fdReservas
     BCDToCurrency = False
-    DataSetOptions = []
     Left = 120
     Top = 72
   end
@@ -2475,7 +2473,6 @@ object fReportCaixa: TfReportCaixa
       'cancelado=cancelado')
     DataSet = fdVEndas
     BCDToCurrency = False
-    DataSetOptions = []
     Left = 216
     Top = 80
   end
@@ -2529,7 +2526,7 @@ object fReportCaixa: TfReportCaixa
       'Server=localhost'
       'DriverID=MySQL')
     LoginPrompt = False
-    Left = 152
-    Top = 192
+    Left = 120
+    Top = 224
   end
 end

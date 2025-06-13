@@ -13,19 +13,17 @@ object frmOrdens: TfrmOrdens
   Font.Height = -13
   Font.Name = 'Product Sans'
   Font.Style = []
-  OldCreateOrder = True
   Position = poScreenCenter
   Visible = True
   OnClose = FormClose
   OnCreate = FormCreate
-  PixelsPerInch = 96
   TextHeight = 16
   object PageControl1: TPageControl
     Left = 0
     Top = 0
     Width = 1089
     Height = 550
-    ActivePage = tbsManutencao
+    ActivePage = tbsCab
     Align = alClient
     TabOrder = 0
     object tbsItens: TTabSheet
@@ -353,6 +351,7 @@ object frmOrdens: TfrmOrdens
             EditLabel.Height = 16
             EditLabel.Caption = 'Produto'
             TabOrder = 1
+            Text = ''
           end
           object jvcedt_produto: TJvComboEdit
             Left = 8
@@ -614,6 +613,7 @@ object frmOrdens: TfrmOrdens
             EditLabel.Height = 16
             EditLabel.Caption = 'Qtde'
             TabOrder = 11
+            Text = ''
           end
           object jvsedt_qtde: TJvSpinEdit
             Left = 592
@@ -711,6 +711,7 @@ object frmOrdens: TfrmOrdens
             EditLabel.Height = 16
             EditLabel.Caption = 'Atendente'
             TabOrder = 0
+            Text = ''
           end
           object jvcedt_atendente: TJvComboEdit
             Left = 8
@@ -807,6 +808,7 @@ object frmOrdens: TfrmOrdens
             EditLabel.Height = 16
             EditLabel.Caption = 'Data de Retirada'
             TabOrder = 3
+            Text = ''
           end
           object jvdt_dtretirada: TJvDateEdit
             Left = 453
@@ -831,6 +833,7 @@ object frmOrdens: TfrmOrdens
             EditLabel.Height = 16
             EditLabel.Caption = 'Data de Devolu'#231#227'o'
             TabOrder = 5
+            Text = ''
           end
           object jvdt_dtdevolucao: TJvDateEdit
             Left = 565
@@ -856,11 +859,12 @@ object frmOrdens: TfrmOrdens
             EditLabel.Height = 16
             EditLabel.Caption = 'Cliente'
             TabOrder = 7
+            Text = ''
           end
           object jvcedt_cliente: TJvComboEdit
             Left = 8
             Top = 88
-            Width = 113
+            Width = 111
             Height = 24
             Alignment = taCenter
             Flat = False
@@ -953,6 +957,7 @@ object frmOrdens: TfrmOrdens
             EditLabel.Height = 16
             EditLabel.Caption = 'Telefone'
             TabOrder = 10
+            Text = ''
           end
           object ledt_fone2: TLabeledEdit
             Left = 573
@@ -964,6 +969,7 @@ object frmOrdens: TfrmOrdens
             EditLabel.Height = 16
             EditLabel.Caption = 'Telefone'
             TabOrder = 11
+            Text = ''
           end
           object jvstTel1: TJvStaticText
             Left = 467
@@ -1206,6 +1212,7 @@ object frmOrdens: TfrmOrdens
           Color = 15132390
           ParentBackground = False
           TabOrder = 1
+          ExplicitWidth = 1074
           object lblPagto: TLabel
             AlignWithMargins = True
             Left = 538
@@ -1422,7 +1429,7 @@ object frmOrdens: TfrmOrdens
             Caption = 'at'#233
           end
           object jvcedt_cliente1: TJvComboEdit
-            Left = 558
+            Left = 554
             Top = 28
             Width = 113
             Height = 24
@@ -1491,7 +1498,7 @@ object frmOrdens: TfrmOrdens
             NumbersOnly = True
           end
           object jvstCliente1: TJvStaticText
-            Left = 677
+            Left = 673
             Top = 28
             Width = 258
             Height = 24
@@ -1510,7 +1517,7 @@ object frmOrdens: TfrmOrdens
             WordWrap = False
           end
           object pnl_btnPesquisar1: TPanel
-            Left = 939
+            Left = 935
             Top = 20
             Width = 122
             Height = 38
@@ -2091,6 +2098,8 @@ object frmOrdens: TfrmOrdens
         Color = 5658198
         ParentBackground = False
         TabOrder = 0
+        ExplicitWidth = 1077
+        ExplicitHeight = 518
         object Panel12: TPanel
           AlignWithMargins = True
           Left = 3
@@ -2102,6 +2111,7 @@ object frmOrdens: TfrmOrdens
           Color = 15132390
           ParentBackground = False
           TabOrder = 0
+          ExplicitWidth = 1071
           object Label11: TLabel
             Left = 16
             Top = 10
@@ -2263,6 +2273,8 @@ object frmOrdens: TfrmOrdens
           Color = 15132390
           ParentBackground = False
           TabOrder = 1
+          ExplicitTop = 443
+          ExplicitWidth = 1071
           object pnl_btnVoltar1: TPanel
             Left = 24
             Top = 16
@@ -2311,6 +2323,7 @@ object frmOrdens: TfrmOrdens
           Color = 15132390
           ParentBackground = False
           TabOrder = 2
+          ExplicitWidth = 1071
           object Label17: TLabel
             Left = 16
             Top = 18
@@ -2809,6 +2822,7 @@ object frmOrdens: TfrmOrdens
             EditLabel.Height = 16
             EditLabel.Caption = 'Fantasia'
             TabOrder = 3
+            Text = ''
             OnChange = ledt_produto2Change
           end
           object jvrbtn_devolvidas: TJvRadioButton
@@ -2967,7 +2981,7 @@ object frmOrdens: TfrmOrdens
         object pnl_dtdevolucao: TPanel
           Left = 307
           Top = 152
-          Width = 478
+          Width = 474
           Height = 41
           Anchors = [akLeft, akTop, akRight]
           BevelInner = bvRaised
@@ -3179,7 +3193,7 @@ object frmOrdens: TfrmOrdens
     Top = 291
   end
   object frxReport: TfrxReport
-    Version = '6.9.3'
+    Version = '6.9.14'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick, pbCopy, pbSelection]
@@ -3297,6 +3311,10 @@ object frmOrdens: TfrmOrdens
       object ghReservas: TfrxGroupHeader
         FillType = ftBrush
         Fill.BackColor = cl3DLight
+        FillGap.Top = 0
+        FillGap.Left = 0
+        FillGap.Bottom = 0
+        FillGap.Right = 0
         Frame.Typ = []
         Height = 86.929190000000000000
         Top = 113.385900000000000000
@@ -3584,6 +3602,10 @@ object frmOrdens: TfrmOrdens
       end
       object TitleReport: TfrxReportTitle
         FillType = ftBrush
+        FillGap.Top = 0
+        FillGap.Left = 0
+        FillGap.Bottom = 0
+        FillGap.Right = 0
         Frame.Typ = []
         Height = 34.015770000000000000
         Top = 18.897650000000000000
@@ -3607,6 +3629,10 @@ object frmOrdens: TfrmOrdens
       end
       object mdReservas: TfrxMasterData
         FillType = ftBrush
+        FillGap.Top = 0
+        FillGap.Left = 0
+        FillGap.Bottom = 0
+        FillGap.Right = 0
         Frame.Typ = []
         Height = 22.677180000000000000
         Top = 222.992270000000000000
@@ -3780,6 +3806,10 @@ object frmOrdens: TfrmOrdens
       end
       object gfReservas: TfrxGroupFooter
         FillType = ftBrush
+        FillGap.Top = 0
+        FillGap.Left = 0
+        FillGap.Bottom = 0
+        FillGap.Right = 0
         Frame.Typ = []
         Height = 26.456710000000000000
         Top = 268.346630000000000000
@@ -3840,6 +3870,10 @@ object frmOrdens: TfrmOrdens
       end
       object Footer1: TfrxFooter
         FillType = ftBrush
+        FillGap.Top = 0
+        FillGap.Left = 0
+        FillGap.Bottom = 0
+        FillGap.Right = 0
         Frame.Typ = []
         Height = 177.637910000000000000
         Top = 317.480520000000000000
